@@ -16,14 +16,14 @@ This project is a multi-agent system designed to generate complete software proj
 
 agent_project/
 ├── agent/
-│ ├── graph.py # The main agent workflow and graph definition.
-│ ├── prompts.py # Prompts for each agent.
-│ ├── states.py # Pydantic models for the agent's state.
-│ └── tools.py # Tools for the Coder agent (e.g., file I/O).
-├── generated_project/ # The directory where the generated project is saved.
-├── main.py # The main entry point to run the agent.
-├── pyproject.toml # Project metadata and dependencies.
-└── README.md # This file.
+│   ├── graph.py         # The main agent workflow and graph definition.
+│   ├── prompts.py       # Prompts for each agent.
+│   ├── states.py        # Pydantic models for the agent's state.
+│   └── tools.py         # Tools for the Coder agent (e.g., file I/O).
+├── generated_project/   # The directory where the generated project is saved.
+├── main.py              # The main entry point to run the agent.
+├── pyproject.toml       # Project metadata and dependencies.
+└── README.md            # This file.
 
 
 ## Getting Started
