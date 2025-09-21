@@ -7,7 +7,7 @@ from states import *
 from prompts import *
 from tools import *
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "YOUR_API_KEY"
 
 llm = ChatGroq(model="openai/gpt-oss-20b")
 
