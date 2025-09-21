@@ -1,0 +1,79 @@
+/* 1. Reset default margins and set box-sizing to border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Style #calculator */
+#calculator {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  background: #222;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3. Style #display */
+#display {
+  height: 80px;
+  background: #111;
+  color: #0f0;
+  font-family: monospace;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+/* 4. Style .button-grid */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+/* 5. Style .button */
+.button {
+  background: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+/* 6. Specific styles for operators, clear, equals */
+.operator {
+  background: #555;
+}
+.clear {
+  background: #a00;
+}
+.equals, #btn-equals {
+  background: #0a0;
+}
+
+/* 7. :active and :focus styles for accessibility */
+.button:active {
+  background: #777;
+}
+.button:focus {
+  outline: 2px solid #fff;
+}
+
+/* 8. Media query for min-width: 600px */
+@media (min-width: 600px) {
+  .button {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
