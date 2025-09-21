@@ -12,19 +12,6 @@ This project is a multi-agent system designed to generate complete software proj
 -   **Tool-Using Agent**: The Coder agent can interact with the file system to create and modify files.
 -   **Powered by LangGraph and Groq**: Built on top of modern AI frameworks for creating powerful and efficient agents.
 
-## Project Structure
-agent_project/
-├── agent/
-│   ├── graph.py          # The main agent workflow and graph definition.
-│   ├── prompts.py        # Prompts for each agent.
-│   ├── states.py         # Pydantic models for the agent's state.
-│   └── tools.py          # Tools for the Coder agent (e.g., file I/O).
-├── generated_project/    # The directory where the generated project is saved.
-├── main.py               # The main entry point to run the agent.
-├── pyproject.toml        # Project metadata and dependencies.
-└── README.md             # This file.
-
-
 ## Getting Started
 
 ### Prerequisites
