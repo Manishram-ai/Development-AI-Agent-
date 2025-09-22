@@ -1,4 +1,4 @@
-# AI Development Agent Agent
+# AI Development Agent
 
 This project is a multi-agent system designed to generate complete software projects from a user's prompt. It uses a Planner-Architect-Coder workflow to create a project plan, design the architecture, and write the code.
 
